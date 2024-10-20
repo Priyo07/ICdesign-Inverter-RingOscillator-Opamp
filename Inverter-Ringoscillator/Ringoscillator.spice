@@ -1,0 +1,13 @@
+** sch_path: /root/latihan/inverter/Ringoscillator.sch
+**.subckt Ringoscillator out Vin Gnd
+*.opin out
+*.ipin Vin
+*.ipin Gnd
+x1 Vin out net1 Gnd inverter
+x2 Vin net1 net2 Gnd inverter
+x3 Vin net2 out Gnd inverter
+**.ends
+
+
+
+.end

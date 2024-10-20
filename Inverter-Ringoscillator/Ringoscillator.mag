@@ -1,0 +1,65 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729054082
+<< viali >>
+rect 132 1058 290 1092
+rect 554 1056 712 1090
+rect 976 1056 1134 1090
+rect 132 34 290 70
+rect 554 34 712 70
+rect 976 34 1134 70
+<< metal1 >>
+rect 120 1092 1146 1102
+rect 120 1058 132 1092
+rect 290 1090 1146 1092
+rect 290 1058 554 1090
+rect 120 1056 554 1058
+rect 712 1056 976 1090
+rect 1134 1056 1146 1090
+rect 120 1046 1146 1056
+rect 174 586 244 592
+rect 174 532 180 586
+rect 238 532 244 586
+rect 1130 586 1200 592
+rect 306 534 656 572
+rect 728 536 1078 574
+rect 174 526 244 532
+rect 1130 532 1136 586
+rect 1192 532 1200 586
+rect 1130 526 1200 532
+rect 114 70 1152 82
+rect 114 34 132 70
+rect 290 34 554 70
+rect 712 34 976 70
+rect 1134 34 1152 70
+rect 114 22 1152 34
+<< via1 >>
+rect 180 532 238 586
+rect 1136 532 1192 586
+<< metal2 >>
+rect 174 586 1200 592
+rect 174 532 180 586
+rect 238 532 1136 586
+rect 1192 532 1200 586
+rect 174 526 1200 532
+use inverter  x1
+timestamp 1729054082
+transform 1 0 53 0 1 53
+box -53 -53 369 1074
+use inverter  x2
+timestamp 1729054082
+transform 1 0 475 0 1 53
+box -53 -53 369 1074
+use inverter  x3
+timestamp 1729054082
+transform 1 0 897 0 1 53
+box -53 -53 369 1074
+<< labels >>
+flabel metal1 426 1076 426 1076 0 FreeSans 160 0 0 0 Vin
+port 2 nsew
+flabel metal1 424 54 424 54 0 FreeSans 160 0 0 0 Gnd
+port 3 nsew
+flabel metal2 s 818 556 818 556 0 FreeSans 160 0 0 0 out
+port 4 nsew
+<< end >>
